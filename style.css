@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    --webkit-font-smoothing: antialiased;
+}
+.btn-container{
+    background-color: grey;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.close-btn{
+    font-size: 4rem;
+    background-color: transparent;
+    border: none;
+    padding-left: 1rem;
+}
+.popup{
+     
+    max-width: 485px;
+    max-height: 400px;
+    box-shadow: 2px 2px 5px grey;
+   margin: auto;
+   position: fixed;
+   inset: 0;
+   border-radius: 20px;
+   display: none;
+}
+.popup img{
+    width: 100%;
+    display: block;
+    height: 72%;
+}
+.Click{
+    border: none;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 16px;
+}
+.click-container{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1.6rem;
+
+}
